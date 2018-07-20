@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script src="js/jquery-3.3.1.js"></script>
+
+    <script>
+        $(function() {
+        size = 14;
+        $("#btn").click(function() {
+            $("#contact").html("<h3>Welcome to jQuery World....</h3>");
+
+        });
+        $("p").hover(function() {
+            $(this).css("background-color","yellow");
+
+        });
+        $("p").mouseleave(function() {
+            $(this).css("background-color","white");
+
+        });
+        $("#plus").click(function() {
+            $("body").css("font-size", size++);
+        });
+        $("#minus").click(function() {
+            $("body").css("font-size", size--);
+        });
+
+        });
+
+    </script>
+</head>
+
+<body>
+    <button id="plus">+</button>
+   <button id="minus">-</button>
+    <hr/>
+    <button id="btn">click</button>
+    <div id="contact"></div>
+    <p>
+
+        A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. This is because paragraphs show a reader where the subdivisions of an essay begin and end, and thus help the reader see the organization of the essay and grasp its main points.
+
+
+    </p>
+    <p>
+    A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. This is because paragraphs show a reader where the subdivisions of an essay begin and end, and thus help the reader see the organization of the essay and grasp its main points.
+     </p>
+      <p>
+    A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. This is because paragraphs show a reader where the subdivisions of an essay begin and end, and thus help the reader see the organization of the essay and grasp its main points.
+     </p>
+     
+     
+   
+</body>
+
+
+</html>
